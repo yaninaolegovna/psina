@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Park Hotel</title>
+    <script src="https://kit.fontawesome.com/0046c26411.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -21,6 +22,7 @@
         <h1>Парк-отель</h1>
         <p class="banner-description description">Место, где вы сможете забыть о городе и воссоединиться с природой</p>
         <a href="#booking" class="btn banner-btn white_text standart_text">Забронировать</a>
+        <a href="#booking" class="banner-arrow"></a>
       </section>
       <section id="about" class="about">
         <img src="./img/about.jpg" alt="Фото рыбалки">
@@ -31,14 +33,17 @@
         <h2>Развлечения</h2>
         <p class="entertainment-description description">На территории парка множество семейных развлечений на любой вкус</p>
         <article class="card entertainment-card">
+          <i class="fa-solid fa-hot-tub-person"></i>
           <h3>Баня</h3>
           <p class="standart_text">В нашем Парк-отеле вы сможете посетить настоящую русскую баню, отдохнуть в специальной комнате, искупаться в бассейне или озере</p>
         </article>
         <article class="card entertainment-card">
+          <i class="fa-solid fa-fish"></i>
           <h3>Рыбалка</h3>
           <p class="standart_text">На онежском озере вы сможете насладиться рыбалкой в окружении леса круглый год. Мы обеспечим выс всем необходимым снаряжением</p>
         </article>
         <article class="card entertainment-card">
+          <i class="fa-solid fa-person-biking"></i>
           <h3>Спорт</h3>
           <p class="standart_text">В парке есть несколько спортивных площадок для детей и взрослых. Здесь вы можете арендовать велосипеды, лодку и многое другое</p>
         </article>
@@ -95,6 +100,13 @@
         <a href="#entertainment">Развлечения</a>
         <a href="#apartments">Апартаменты</a>
       </nav>
+      <!-- В Font Awesome нет иконок VK и Telegram как на макете, подключены те, что из были там, можно скачать и подключить которые в макете через псевдоэлементы-->
+      <div class="contacts"> 
+        <a href="#!"><i class="fa-brands fa-vk"></i></a>
+        <a href="#!"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#!"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#!"><i class="fa-brands fa-instagram"></i></a>
+      </div>
     </footer>
   </body>
 </html>
