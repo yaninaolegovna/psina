@@ -668,6 +668,7 @@ p.input-title {
   width: 0px; /* чтобы не срабатывал случайный клик */
   height: 0px; 
   overflow: hidden; /* скрытие из поля видимости */
+  z-index: -1;
 }
 
 .radio-lable {
